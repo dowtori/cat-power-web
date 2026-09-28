@@ -1,0 +1,8 @@
+{
+  "name": "cat-power-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test scripts/site.test.mjs", "dev": "node scripts/serve.mjs" },
+  "engines": { "node": ">=22" }
+}

@@ -40,7 +40,7 @@ foreach ($asset in $manifest.Assets) {
 ZIP 전체를 새 폴더에 압축 해제하고 $exeName 파일을 실행하세요.
 assets 폴더를 실행 파일과 함께 두세요. Windows / .NET Framework 4.x가 필요합니다.
 업데이트 전에는 이전 게임을 트레이에서 종료하세요.
-0.5.0은 처음 저장할 때 이전 저장을 save.json.pre-0.5.0.bak로 보존합니다.
+0.6.0은 처음 저장할 때 이전 저장을 save.json.pre-0.6.0-save8.bak로 보존합니다.
 새 지역 기록을 보호하기 위해 이전 버전 앱은 새 저장을 열 수 없습니다.
 저장: %LOCALAPPDATA%/CatPower/companion-reboot/save.json
 공식 배포: https://github.com/$($data.repository)/releases/tag/v$version

@@ -2,6 +2,11 @@
 
 버전 공지와 Windows 개발판 다운로드를 제공하는 한국어 정적 사이트입니다. 웹 코드와 공개용 애셋만 관리하며 게임 소스/개인 저장/QA 로그/게임 ZIP은 Git에 넣지 않습니다.
 
+- 공개 웹사이트: https://cat-power-web.vercel.app
+- Git 저장소: https://github.com/dowtori/cat-power-web
+- 게임 배포: https://github.com/dowtori/cat-power-web/releases
+- Vercel 프로젝트: `dowtoris-projects/cat-power-web`, main 브랜치 Git 자동 배포 연결 완료.
+
 ## 구성과 실행
 
 - Node.js 22 이상, 외부 런타임 의존성 없음.

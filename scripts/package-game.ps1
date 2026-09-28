@@ -11,6 +11,11 @@ if ((Get-FileHash -LiteralPath (Join-Path $build $exeName)).Hash -ne $manifest.B
 $dataPath = Join-Path $siteRoot 'content/releases.json'
 $data = Get-Content -LiteralPath $dataPath -Raw | ConvertFrom-Json
 if ($data.releases[0].version -ne $version) { throw 'Add release notes for the current version first' }
+foreach ($source in $manifest.Sources) {
+    if ((Get-FileHash -LiteralPath $source.Path).Hash -ne $source.Hash) { throw "Source changed after build: $($source.Path)" }
+}
+$binaryVersion = [Diagnostics.FileVersionInfo]::GetVersionInfo((Join-Path $build $exeName)).ProductVersion
+if ($binaryVersion -ne $version) { throw 'Executable product version mismatch' }
 $destination = Join-Path $siteRoot 'artifacts'
 New-Item -ItemType Directory -Force -Path $destination | Out-Null
 $stage = Join-Path $destination ("package-$version-" + [Guid]::NewGuid().ToString('N'))
@@ -35,6 +40,8 @@ foreach ($asset in $manifest.Assets) {
 ZIP 전체를 새 폴더에 압축 해제하고 $exeName 파일을 실행하세요.
 assets 폴더를 실행 파일과 함께 두세요. Windows / .NET Framework 4.x가 필요합니다.
 업데이트 전에는 이전 게임을 트레이에서 종료하세요.
+0.5.0은 처음 저장할 때 이전 저장을 save.json.pre-0.5.0.bak로 보존합니다.
+새 지역 기록을 보호하기 위해 이전 버전 앱은 새 저장을 열 수 없습니다.
 저장: %LOCALAPPDATA%/CatPower/companion-reboot/save.json
 공식 배포: https://github.com/$($data.repository)/releases/tag/v$version
 개발판은 정식 출시 전 버전으로 게임 내용과 밸런스가 바뀔 수 있습니다.

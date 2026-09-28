@@ -35,7 +35,7 @@ foreach ($asset in $manifest.Assets) {
 }
 [ordered]@{ version=$version; channel=$data.releases[0].channel; files=$files } | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $stage 'manifest.json') -Encoding utf8
 @"
-냥력발전소 v$version 개발판
+몰컴은 고양이를 싣고 v$version 개발판
 
 ZIP 전체를 새 폴더에 압축 해제하고 $exeName 파일을 실행하세요.
 assets 폴더를 실행 파일과 함께 두세요. Windows / .NET Framework 4.x가 필요합니다.

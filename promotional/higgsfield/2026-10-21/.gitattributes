@@ -1,0 +1,6 @@
+*.md text eol=lf
+*.json text eol=lf
+.gitattributes text eol=lf
+SHA256SUMS text eol=lf
+*.png binary
+*.mp4 binary

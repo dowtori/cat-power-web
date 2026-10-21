@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "collection_date": "2026-10-21",
+  "scope": "current completed bundle only; older assets not duplicated",
+  "visibility": "public",
+  "assets": [
+    {
+      "name": "garden-evening-video-01",
+      "file": "approved/garden-evening-video-01.mp4",
+      "asset_id": "a91cdac4-b781-4522-b204-47faf945ccbc",
+      "official_url": "https://higgsfield.ai/ko/asset/all/a91cdac4-b781-4522-b204-47faf945ccbc",
+      "generated_date": "2026-10-21",
+      "model": "Kling 3.0",
+      "actual_dimensions": [
+        1276,
+        720
+      ],
+      "bytes": 7384878,
+      "sha256": "83d9fcca41f661e56d4496ec235ff7c2210f63f1fffd2b05cfd5cf55667a67c4",
+      "usage": "인물 없는 저녁 정원 홍보 배경",
+      "visual_review": "passed",
+      "review_notes": "Independent promotional garden concept. Not gameplay or runtime replacement; no seamless loop guarantee.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "duration_seconds": 5.04,
+      "fps": 24.0,
+      "frames_decoded": 121,
+      "audio_review": "not cleared; use muted unless separately reviewed",
+      "source_image_url": "https://higgsfield.ai/ko/asset/all/7e2dc59e-2fe7-4c08-ac9c-14b48809d950",
+      "character_reference": null
+    },
+    {
+      "name": "toastcat-keyvisual-01",
+      "file": "approved/toastcat-keyvisual-01.png",
+      "asset_id": "4cc8a914-dd7b-45b2-a321-910e9c595932",
+      "official_url": "https://higgsfield.ai/ko/asset/all/4cc8a914-dd7b-45b2-a321-910e9c595932",
+      "generated_date": "2026-10-21",
+      "model": "GPT Image 2",
+      "actual_dimensions": [
+        2688,
+        1520
+      ],
+      "bytes": 5401075,
+      "sha256": "670ed9e287ee0966edba6d00391184fa9bb3ed5b81984029baccfae63ec3f608",
+      "usage": "가로 홍보 키비주얼 및 제안서",
+      "visual_review": "passed",
+      "review_notes": "Brown tabby, buttered toast and dark strap visually retained. Promotional interpretation, not exact runtime art or actual gameplay.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "character_reference": "https://github.com/dowtori/cat-power-web/blob/2d6e20a084e05d6f2da6a78e97ad1a51ab16e824/public/assets/cat.png"
+    },
+    {
+      "name": "toastcat-landscape-video-01",
+      "file": "approved/toastcat-landscape-video-01.mp4",
+      "asset_id": "4f829df0-f138-4916-b39e-5d292c6b2f41",
+      "official_url": "https://higgsfield.ai/ko/asset/all/4f829df0-f138-4916-b39e-5d292c6b2f41",
+      "generated_date": "2026-10-21",
+      "model": "Kling 3.0",
+      "actual_dimensions": [
+        1912,
+        1080
+      ],
+      "bytes": 7530960,
+      "sha256": "700c53579f321bc025fc18b6a9b76d3425646df4a2ec4e3a01fc9f02ed3fbed8",
+      "usage": "가로 홍보 B-roll",
+      "visual_review": "passed",
+      "review_notes": "Brown tabby, buttered toast and dark strap visually retained. Promotional interpretation, not exact runtime art or actual gameplay.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "duration_seconds": 6.04,
+      "fps": 24.0,
+      "frames_decoded": 145,
+      "audio_review": "not cleared; use muted unless separately reviewed",
+      "source_image_url": "https://higgsfield.ai/ko/asset/all/4cc8a914-dd7b-45b2-a321-910e9c595932",
+      "character_reference": "https://github.com/dowtori/cat-power-web/blob/2d6e20a084e05d6f2da6a78e97ad1a51ab16e824/public/assets/cat.png"
+    },
+    {
+      "name": "toastcat-portrait-01",
+      "file": "approved/toastcat-portrait-01.png",
+      "asset_id": "58109839-67d4-4192-bbdf-53d7cdae7af5",
+      "official_url": "https://higgsfield.ai/ko/asset/all/58109839-67d4-4192-bbdf-53d7cdae7af5",
+      "generated_date": "2026-10-21",
+      "model": "GPT Image 2",
+      "actual_dimensions": [
+        1520,
+        2688
+      ],
+      "bytes": 5432341,
+      "sha256": "f0ae9a41b7f8988daef6dc9674af901bb64464d0f55158bbf0dff67bafcdf494",
+      "usage": "세로 SNS 커버",
+      "visual_review": "passed",
+      "review_notes": "Brown tabby, buttered toast and dark strap visually retained. Promotional interpretation, not exact runtime art or actual gameplay.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "character_reference": "https://github.com/dowtori/cat-power-web/blob/2d6e20a084e05d6f2da6a78e97ad1a51ab16e824/public/assets/cat.png"
+    },
+    {
+      "name": "toastcat-portrait-video-01",
+      "file": "approved/toastcat-portrait-video-01.mp4",
+      "asset_id": "6e3714cd-92ec-48d4-802f-468af77d140b",
+      "official_url": "https://higgsfield.ai/ko/asset/all/6e3714cd-92ec-48d4-802f-468af77d140b",
+      "generated_date": "2026-10-21",
+      "model": "Kling 3.0",
+      "actual_dimensions": [
+        1080,
+        1912
+      ],
+      "bytes": 15430849,
+      "sha256": "e672688cca9bb3970d301b12476a2a6c68abf0b7d7b0b6b71db8bf747f566511",
+      "usage": "세로 SNS 홍보 B-roll",
+      "visual_review": "passed",
+      "review_notes": "Brown tabby, buttered toast and dark strap visually retained. Promotional interpretation, not exact runtime art or actual gameplay.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "duration_seconds": 6.04,
+      "fps": 24.0,
+      "frames_decoded": 145,
+      "audio_review": "not cleared; use muted unless separately reviewed",
+      "source_image_url": "https://higgsfield.ai/ko/asset/all/58109839-67d4-4192-bbdf-53d7cdae7af5",
+      "character_reference": "https://github.com/dowtori/cat-power-web/blob/2d6e20a084e05d6f2da6a78e97ad1a51ab16e824/public/assets/cat.png"
+    },
+    {
+      "name": "toastcat-wide-banner-01",
+      "file": "approved/toastcat-wide-banner-01.png",
+      "asset_id": "4ef428ef-dac1-45be-9be5-a79fee74c1dd",
+      "official_url": "https://higgsfield.ai/ko/asset/all/4ef428ef-dac1-45be-9be5-a79fee74c1dd",
+      "generated_date": "2026-10-21",
+      "model": "GPT Image 2",
+      "actual_dimensions": [
+        2688,
+        1152
+      ],
+      "bytes": 3176546,
+      "sha256": "9af756b0ef9d60e052de92e623c8cb1e005964bd9fe1a4afc1e82918651e7d66",
+      "usage": "초광폭 웹 배너",
+      "visual_review": "passed",
+      "review_notes": "Brown tabby, buttered toast and dark strap visually retained. Promotional interpretation, not exact runtime art or actual gameplay.",
+      "publication_status": "reviewed promotional concept; not a release or deployment",
+      "character_reference": "https://github.com/dowtori/cat-power-web/blob/2d6e20a084e05d6f2da6a78e97ad1a51ab16e824/public/assets/cat.png"
+    }
+  ]
+}

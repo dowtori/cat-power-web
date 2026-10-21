@@ -1,3 +1,6 @@
 artifacts
 .git
 node_modules
+
+# Non-runtime promotional source assets
+promotional/
